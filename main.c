@@ -83,7 +83,7 @@ int main() {
   read();
   read();
   file_close();
-  view();
+  //view();
   play();
   return 0;
 }
@@ -172,7 +172,7 @@ void read(){
 }
 
 void view(){
-  printf("  H z  :  m s  \n");
+  printf("  H z  :    s  \n");
   for(int i = 0;i<p;i++){
     printf("%02d:%3.3f:%3.3f\n",i,val[i][0],val[i][1]);
   }
